@@ -6,7 +6,7 @@ I tested it with recurring payment for now, should work with direct payments (or
 
 #How it works! -#
 
-1. Place the ipn script to a folder of your site (or other).
+1. Place the ipn script to a folder of your site (or other) -> replace $ipnkey with yours one (s2Member > Paypal Options > Paypal IPN Integration > IPN w/ Proxy Key)
 2. Copy the direct link of this script.
 3. Place the link as notification URL on pagseguro.
 4. On pagseguro create recurring buttons and name it like 'May Plan (or any text) - 1' - don't place more than one digit here, this digit will be membership level of user.
